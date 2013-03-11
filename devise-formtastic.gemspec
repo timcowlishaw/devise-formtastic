@@ -16,9 +16,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^spec/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "rails", "~> 4.0.0.beta"
-  gem.add_dependency "devise", "~> 2.2.3"
-  gem.add_dependency "formtastic", "~> 2.2.1"
+  gem.add_dependency "rails", "4.0.0.beta1"
+  gem.add_dependency "devise", "2.2.3"
+  gem.add_dependency "formtastic", "2.2.1"
 
   gem.add_development_dependency "sqlite3"
 end
